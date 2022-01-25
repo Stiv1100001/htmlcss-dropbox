@@ -1,0 +1,33 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* RESET */
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Floating utility */
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.fl-left {
+    float: left;
+}
+
+.fl-right {
+    float: right;
+}
+
+/* HTML&Body property */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
