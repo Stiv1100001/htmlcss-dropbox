@@ -50,3 +50,38 @@ body {
 .text-blue {
     color: rgb(0, 94, 255);
 }
+
+/* General */
+img {
+    height: 100%;
+}
+
+/* Header */
+header {
+    height: 9vh;
+    min-width: 930px;
+    line-height: 9vh;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.logo {
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.logo>img {
+    height: 70%;
+    vertical-align: middle;
+    margin-left: 1vw;
+}
+
+nav ul {
+    display: inline;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+    padding: 0.2rem 0.7rem;
+}
