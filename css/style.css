@@ -33,7 +33,7 @@ body {
 }
 
 /* Color utility */
-.bg-turquise {
+.bg-turquoise {
     background-color: rgb(180, 208, 231);
 }
 
@@ -54,6 +54,11 @@ body {
 /* General */
 img {
     height: 100%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
 
 /* Header */
@@ -86,11 +91,53 @@ nav ul li {
     padding: 0.2rem 0.7rem;
 }
 
-nav ul li a {
-    color: black;
-    text-decoration: none;
-}
-
 .bg-blue a {
     color: white;
+}
+
+/* Jumbotron */
+/* 
+section#jumbotron {
+    max-height: 1050px;
+} */
+
+.jumbotron-content {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 7vh;
+}
+
+.jumbotron-title {
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 4vh;
+}
+
+.jumbotron-text {
+    width: 35%;
+}
+
+.jumbotron-text p {
+    margin-bottom: 3vh;
+}
+
+.jumbotron-text a {
+    padding: 0.2rem 0.7rem;
+}
+
+p#cancel {
+    margin-top: 1vh;
+    font-size: 12px;
+}
+
+.fa-arrow-down {
+    font-size: 30px;
+}
+
+.jumbotron-img {
+    width: 60%;
+}
+
+.jumbotron-img>img {
+    width: 100%;
 }
