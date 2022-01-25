@@ -85,3 +85,12 @@ nav ul li {
     margin-right: 1rem;
     padding: 0.2rem 0.7rem;
 }
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.bg-blue a {
+    color: white;
+}
