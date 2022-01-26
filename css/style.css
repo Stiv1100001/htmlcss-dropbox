@@ -63,10 +63,6 @@ body {
 }
 
 /* General */
-img {
-    height: 100%;
-}
-
 a {
     color: black;
     text-decoration: none;
@@ -296,4 +292,23 @@ section#pricelists {
     border: 1px solid black;
     padding: 0.5rem 1rem;
     box-shadow: none;
+}
+
+/* Operations */
+.info-card {
+    margin-top: 5vh;
+    width: calc((100% / 3) - 2vw);
+}
+
+.info-card>img {
+    width: 100%;
+}
+
+.info-card h3 {
+    margin: 2vh 0 3vh;
+    font-weight: 800;
+}
+
+.info-card.centered {
+    margin-left: 3vw;
 }
