@@ -189,7 +189,16 @@ section#pricelists {
 .price-card {
     display: inline-block;
     width: calc((100% / 3) - 5vw);
+    padding-bottom: 5vh;
     border: 1px solid gray;
+}
+
+.price-card-full {
+    width: 100%;
+}
+
+.pc-mg-left {
+    margin-left: 10vh;
 }
 
 .content-padded {
@@ -217,6 +226,7 @@ section#pricelists {
 .price-card .fatturazione {
     color: gray;
     margin-bottom: 2vh;
+    font-size: 10px;
 }
 
 .price-card p {
@@ -243,6 +253,11 @@ section#pricelists {
     font-weight: 900;
     content: "\f00c";
     color: rgb(0, 94, 255);
+}
+
+.price-card hr {
+    width: 15%;
+    margin-left: 1rem;
 }
 
 .btn {
