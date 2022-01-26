@@ -32,6 +32,10 @@
     position: absolute;
 }
 
+.fixed {
+    position: fixed;
+}
+
 /* HTML&Body property */
 html {
     scroll-behavior: smooth;
@@ -78,10 +82,14 @@ i {
 
 /* Header */
 header {
+    width: 100%;
+    background-color: white;
     height: 9vh;
     line-height: 9vh;
     font-size: 12px;
     font-weight: bold;
+    top: 0;
+    z-index: 3;
 }
 
 .logo {
@@ -110,6 +118,10 @@ nav ul li {
 }
 
 /* Jumbotron */
+
+section#jumbotron {
+    margin-top: 9vh;
+}
 
 .jumbotron-content {
     width: 80%;
