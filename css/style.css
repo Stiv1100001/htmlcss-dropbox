@@ -162,7 +162,7 @@ nav ul li {
 
 .container {
     width: 70%;
-    margin: 0 auto;
+    margin: 0 auto 5rem;
     vertical-align: top;
 }
 
@@ -178,10 +178,6 @@ section#pricelists {
 
 .radio-buttons {
     margin-bottom: 2vh;
-}
-
-.radio-buttons input:checked {
-    background-color: rgb(0, 94, 255);
 }
 
 .radio-buttons label {
@@ -242,10 +238,6 @@ section#pricelists {
     margin-top: 2vh;
 }
 
-.price-card p.buy-now a {
-    color: rgb(0, 94, 255);
-}
-
 .price-card li {
     list-style: none;
     font-size: 12px;
@@ -275,4 +267,33 @@ section#pricelists {
 .btn {
     padding: 6px 25px;
     font-size: 12px;
+}
+
+/* Partners */
+#partner .img-container {
+    width: 60%;
+}
+
+#partner .img-container>img {
+    width: 100%;
+}
+
+#partner .text-container {
+    width: 40%;
+}
+
+#partner .text-container p {
+    font-size: 12px;
+    line-height: 1.5rem;
+}
+
+#partner .text-container .padded {
+    padding: 1rem;
+}
+
+#partner .text-container button {
+    border-radius: 0;
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    box-shadow: none;
 }
