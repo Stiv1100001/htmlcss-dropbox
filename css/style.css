@@ -23,6 +23,15 @@
     float: right;
 }
 
+/* Position utility */
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
 /* HTML&Body property */
 html {
     scroll-behavior: smooth;
@@ -30,6 +39,7 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
+    min-width: 930px;
 }
 
 /* Color utility */
@@ -64,7 +74,6 @@ a {
 /* Header */
 header {
     height: 9vh;
-    min-width: 930px;
     line-height: 9vh;
     font-size: 12px;
     font-weight: bold;
@@ -115,6 +124,7 @@ section#jumbotron {
 
 .jumbotron-text {
     width: 35%;
+    padding-bottom: 14vh;
 }
 
 .jumbotron-text p {
@@ -125,7 +135,7 @@ section#jumbotron {
     padding: 0.2rem 0.7rem;
 }
 
-p#cancel {
+.jumbotron-text p#cancel {
     margin-top: 1vh;
     font-size: 12px;
 }
@@ -135,9 +145,39 @@ p#cancel {
 }
 
 .jumbotron-img {
-    width: 60%;
+    width: 55%;
 }
 
 .jumbotron-img>img {
-    width: 100%;
+    height: 52vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* Main content */
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Pricelists */
+section#pricelists {
+    margin-top: 20vh;
+}
+
+#pricelists h1 {
+    font-size: 40px;
+    margin-bottom: 4vh;
+}
+
+.radio-buttons {
+    margin-bottom: 2vh;
+}
+
+.radio-buttons input:checked {
+    background-color: rgb(0, 94, 255);
 }
