@@ -341,3 +341,13 @@ section#pricelists {
     background-color: white;
     padding: 0.5rem 3rem;
 }
+
+/* FAQ */
+
+#faq h1 {
+    margin-bottom: 6vh;
+}
+
+#faq .faq-container {
+    margin-bottom: 6vh;
+}
