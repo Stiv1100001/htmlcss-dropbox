@@ -62,6 +62,10 @@ body {
     color: white;
 }
 
+.bg-white {
+    background-color: white;
+}
+
 .text-blue {
     color: rgb(0, 94, 255);
 }
@@ -82,8 +86,8 @@ i {
 
 /* Header */
 header {
+    min-width: 970px;
     width: 100%;
-    background-color: white;
     height: 9vh;
     line-height: 9vh;
     font-size: 12px;
@@ -350,7 +354,6 @@ section#pricelists {
 }
 
 .btn-teams {
-    background-color: white;
     padding: 0.5rem 3rem;
 }
 
@@ -390,7 +393,6 @@ section#pricelists {
 }
 
 footer hr {
-    background-color: white;
     width: 10%;
 }
 
