@@ -351,3 +351,42 @@ section#pricelists {
 #faq .faq-container {
     margin-bottom: 6vh;
 }
+
+/* Footer */
+.footer-up {
+    padding: 4rem 0;
+}
+
+.footer-list {
+    display: inline-block;
+    width: calc(20% - 2vw);
+    margin-left: 2vw;
+}
+
+.footer-list h5 {
+    font-size: 13px;
+    margin-bottom: 2vh;
+}
+
+.footer-list li {
+    list-style: none;
+}
+
+.footer-list li a {
+    font-size: 10px;
+    color: white;
+}
+
+footer hr {
+    background-color: white;
+    width: 10%;
+}
+
+.footer-bottom {
+    padding: 1rem 0;
+}
+
+.footer-bottom p {
+    color: gray;
+    font-size: 12px;
+}
