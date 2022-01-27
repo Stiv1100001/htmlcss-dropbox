@@ -459,6 +459,25 @@ section#pricelists {
     margin-bottom: 6vh;
 }
 
+.faq-container h5 {
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.faq-container h5.icon {
+    width: 10%;
+    text-align: right;
+}
+
+.faq-container .info {
+    display: none;
+}
+
+.faq-container:hover .info {
+    display: block;
+    font-size: 13px;
+}
+
 /* Footer */
 .footer-up {
     padding: 4rem 0;
