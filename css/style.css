@@ -344,6 +344,70 @@ section#pricelists {
     text-decoration: underline;
 }
 
+#teams-middle .small {
+    width: 30vw;
+    display: inline-block;
+}
+
+.small .logo-teams {
+    width: 27%;
+    padding: 2rem;
+    display: inline-block;
+}
+
+.logo-teams>img {
+    width: 100%;
+    filter: invert();
+}
+
+#designit {
+    background-color: rgb(162, 211, 155);
+}
+
+#asu {
+    background-color: rgb(97, 8, 43);
+}
+
+#uf {
+    background-color: rgb(0, 147, 206);
+}
+
+#topps {
+    background-color: rgb(255, 28, 28);
+}
+
+#wbr {
+    background-color: rgb(213, 0, 31);
+}
+
+#hearst {
+    background-color: rgb(180, 208, 231);
+}
+
+#lonely {
+    background-color: rgb(13, 36, 129);
+}
+
+#clear-channel {
+    background-color: rgb(255, 216, 48);
+}
+
+#teams-middle .large {
+    display: inline-block;
+    width: 40vw;
+    overflow: auto;
+    padding: 2rem;
+    font-size: 12px;
+}
+
+.large>img {
+    width: 15%;
+}
+
+.large>p {
+    margin-top: 2rem;
+}
+
 #teams-bottom h1 {
     padding: 5rem 0;
     width: 35%;
