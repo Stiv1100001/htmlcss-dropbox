@@ -11,7 +11,7 @@
 /* Floating utility */
 .clearfix::after {
     content: "";
-    display: block;
+    display: table;
     clear: both;
 }
 
@@ -148,6 +148,24 @@ nav ul li {
     margin-right: 1rem;
     padding: 0.2rem 0.7rem;
 }
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#support {
+    display: inline-block;
+}
+
+#support-menu {
+    display: inline-block;
+}
+
+#support-menu ul {
+    display: none;
+}
+
+#support-menu ul li {}
 
 .bg-blue a {
     color: white;
@@ -379,34 +397,43 @@ section#pricelists {
 /* Teams middle */
 
 #teams-middle .small {
-    width: calc(30vw - 10px);
+    width: 30vw;
+    height: 30vw;
+}
+
+#teams-middle .small .logo-teams {
+    width: 15vw;
     display: inline-block;
 }
 
-.small .logo-teams {
-    width: calc(50% - 3px);
-    display: inline-block;
+.logo-teams {
+    width: 15vw;
+    height: 15vw;
+    position: relative;
 }
 
 .logo-teams>img {
-    width: 100%;
+    width: 50%;
     filter: invert();
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #teams-middle .large {
-    display: inline-block;
-    width: 40vw;
+    width: 30vw;
     overflow: auto;
-    padding: 2rem;
     font-size: 12px;
+    padding: 3rem 2rem;
 }
 
 .large>img {
-    width: 15%;
+    width: 25%;
 }
 
 .large>p {
-    margin-top: 2rem;
+    margin-top: 3.5rem;
 }
 
 #teams-bottom h1 {
