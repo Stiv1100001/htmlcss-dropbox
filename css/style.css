@@ -202,6 +202,11 @@ section#jumbotron {
     padding: 0.2rem 1rem;
 }
 
+.jumbotron-text a:hover {
+    background-color: rgb(10, 67, 167);
+
+}
+
 .jumbotron-text p#cancel {
     margin-top: 1vh;
     font-size: 12px;
@@ -335,6 +340,10 @@ section#pricelists {
     font-size: 12px;
 }
 
+.btn:hover {
+    background-color: rgb(9, 66, 163);
+}
+
 /* Partners */
 #partner .img-container {
     width: 60%;
@@ -447,6 +456,11 @@ section#pricelists {
 
 .btn-teams {
     padding: 0.5rem 3rem;
+}
+
+.btn-teams:hover {
+    padding: 0.5rem 3rem;
+    background-color: rgb(179, 174, 174);
 }
 
 /* FAQ */
